@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:paddingRight="5dp"
+    >
+    <ImageView
+        android:id="@+id/forYouImg"
+        android:layout_width="80dp"
+        android:layout_height="105dp"
+        android:src="@drawable/bookmain"
+        android:scaleType="centerCrop"
+        android:background="@drawable/contaner_image"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/forYouTitle"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="the second man"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/quattrocento_sans"
+        android:textColor="@color/black" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/star"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/forYourRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5"
+                android:textSize="18dp"
+                android:fontFamily="@font/quattrocento_sans"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="More..."
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/quattrocento_sans"
+            android:textColor="@color/texthint" />
+    </LinearLayout>
+
+</LinearLayout>
